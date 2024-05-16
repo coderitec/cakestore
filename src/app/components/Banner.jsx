@@ -13,7 +13,7 @@ export default function Banner() {
          <span className='text-3xl '>
          <span className='animate-bounce inline-block pl-1'>Swe</span>
          <span className='animate-pulse inline-block '>et </span>
-         <span className='animate-bounce inline-block'>Addic </span>
+         <span className='animate-bounce inline-block pl-4'>Addic </span>
          <span className='animate-ping'>tions </span>
          </span>
          
