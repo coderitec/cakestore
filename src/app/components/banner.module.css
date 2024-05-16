@@ -1,4 +1,4 @@
-@mdeia screen and (min-width: 900px){
+@media screen and (min-width: 642px){
 
     
     .bhead{
@@ -30,7 +30,7 @@
 }
 
 
-@mdeia screen and (max-width: 899px){
+@media screen and (max-width: 641px){
     .bhead{
         background-image: url(/cake.jpg);
         height: 110vh;
