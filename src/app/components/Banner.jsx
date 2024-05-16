@@ -9,7 +9,7 @@ export default function Banner() {
 
     <div className={styles.bhead}>
         <div>
-         <h2 className='text-lg py-4 text-fuchsia-500'>{new Date().getHours() >= 12 ? 'Good Afernoon' : new Date().getHours() >= 16 ? 'Good evening' : 'Good morning'}, welcome to Cakestore</h2>  
+         <h2 className='text-lg py-4 text-fuchsia-500'>{new Date().getHours() >= 16 ? 'Good Evening' : new Date().getHours() >= 12 ? 'Good Afternoon' : 'Good morning'}, welcome to Cakestore</h2>  
 
          <p className='text-5xl text-slate-900'>Everything cakes and pastries with sweet addiction</p>
 
