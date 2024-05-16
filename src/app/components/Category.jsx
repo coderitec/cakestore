@@ -4,7 +4,7 @@ export default function Category() {
   return (
     <section className={styles.video}>
         <section>
-            <video controls='true' loop='true' width='200'>
+            <video autoPlay={true} muted={true} loop={true} width='200'>
                 <source src="/cakes-video.mp4" type="video/mp4" />
             </video>
 
@@ -15,7 +15,7 @@ export default function Category() {
         </section>
 
         <section>
-            <video controls='true' loop='true' width='200'>
+            <video autoPlay={true} muted={true} loop={true} width='200'>
                 <source src='/pastries-video.mp4' type="video/mp4" />
             </video>
 

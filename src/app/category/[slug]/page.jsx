@@ -19,20 +19,17 @@ export default function page({params}) {
         <h2 className='text-2xl py-8 capitalize font-semibold'>All Cakes and Pastries</h2>
     
         <div>
-          <ul className="flex gap-3 items-center capitalize">
-            <li className="py-2 px-4 ">
-              <Link href={`/category/${'/'}`}>all</Link> 
-              </li>
+        <ul className="flex gap-3 items-center capitalize">
+        <li className="py-2 px-4 rounded-2xl text-black">
+          <Link href={`/category`}>all</Link> </li>
 
-            <li className={params.slug == 'Pastry' ? 'py-2 px-4 rounded-2xl bg-fuchsia-500 text-white' : 'py-2 px-4 '}>
-              <Link href={`/category/${'Pastry'}`}>pastries</Link> 
-              </li>
+        <li className={params.slug =='Pastry' ?'rounded-full py-2 px-4 bg-orange-500': "py-2 px-4 "}>
+          <Link href={`/category/${'Pastry'}`}>pastries</Link> </li>
 
-            <li className={params.slug == 'Cake' ? 'py-2 px-4 rounded-2xl bg-fuchsia-500 text-white' : 'py-2 px-4 '}>
-              <Link href={`/category/${'Cake'}`}>cakes</Link> 
-              </li>
-          
-          </ul>
+        <li className={params.slug =='Cake' ?'rounded-full bg-fuchsia-500 py-2 px-4': "py-2 px-4 "}>
+          <Link href={`/category/${'Cake'}`}>cakes</Link> </li>
+      
+      </ul>
         </div>
         </div>
     
