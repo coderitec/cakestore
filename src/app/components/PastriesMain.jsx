@@ -8,7 +8,7 @@ const pastData = data.filter(datum => datum.type == 'Pastry').slice(0,4)
 export const PastsMain = () => {
 
     const pastLog = pastData.map(past => (
-        <section key={past.id} className="flex flex-col gap-3 items-center shadow-xl rounded-2xl py-10 text-2xl">
+        <section key={past.id} className="bg-white flex flex-col gap-3 items-center shadow-xl rounded-2xl py-10 text-2xl">
             <Link href={`/product/${past.name.split(' ').join('-')}`}>
             <Image src={`/cakes/${past.name.split(' ').join('-')}.jpg`} alt={past.name} width='300' height='400' className="h-40 w-40"/>
             <h3>{past.name}</h3>

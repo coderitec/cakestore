@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={sora.className}>
+      <body className={`bg-gray-100 ${sora.className}`}>
         <div className="fixed inset-x-0 z-[1] bg-white border-b-4 border-b-gray-200">
         <TopNavbar />
         <BottomNavbar />

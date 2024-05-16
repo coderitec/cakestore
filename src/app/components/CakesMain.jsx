@@ -8,7 +8,7 @@ const cakeData = data.filter(datum => datum.type == 'Cake').slice(0,4)
 export const CakesMain = () => {
 
     const cakeLog = cakeData.map(cake => (
-        <section key={cake.id} className="flex flex-col gap-3 items-center shadow-xl rounded-2xl py-10 text-2xl">
+        <section key={cake.id} className="bg-white flex flex-col gap-3 items-center shadow-xl rounded-2xl py-10 text-2xl">
             <Link href={`/product/${cake.name.split(' ').join('-')}`}>
             <Image src={`/cakes/${cake.name.split(' ').join('-')}.jpg`} alt={cake.name} width='300' height='400' className="h-40 w-40"/>
       

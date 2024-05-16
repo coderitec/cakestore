@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function Catalog() {
 
   const allData = data.map(datum => (
-    <section key={datum.id}  className="flex flex-col gap-3 items-center shadow-xl rounded-2xl py-10 text-2xl">
+    <section key={datum.id}  className="bg-white flex flex-col gap-3 items-center shadow-xl rounded-2xl py-10 text-2xl">
       <Link href={`/product/${datum.name.split(' ').join('-')}`} title={datum.name}>
       <Image src={`/cakes/${datum.name.split(' ').join('-')}.jpg`} alt={datum.name} width='300' height='400' className="h-40 w-40" />
       <h3>{datum.name}</h3>
