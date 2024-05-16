@@ -1,10 +1,10 @@
-import { Flavors } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import { TopNavbar } from "./components/TopNavbar";
 import BottomNavbar from "./components/BottomNavbar";
 import Footer from "./components/Footer";
 
-const sora = Flavors({ subsets: ["latin"], weight: ['400'] });
+const sora = Roboto({ subsets: ["latin"], weight: ['400'] });
 
 export const metadata = {
   title: "welcome to sweet addiction",
