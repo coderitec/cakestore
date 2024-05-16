@@ -9,7 +9,15 @@ export default function Banner() {
 
     <div className={styles.bhead}>
         <div>
-         <h2 className='text-lg py-4 text-fuchsia-500'>{new Date().getHours() >= 16 ? 'Good Evening' : new Date().getHours() >= 12 ? 'Good Afternoon' : 'Good morning'}, welcome to Cakestore</h2>  
+         <h2 className='text-xl text-slate-900 py-4 '>{new Date().getHours() >= 16 ? 'Good Evening' : new Date().getHours() >= 12 ? 'Good Afternoon' : 'Good morning'}, <span className='text-3xl'>Here is </span>
+         <span className='text-3xl '>
+         <span className='animate-bounce inline-block pl-1'>Swe</span>
+         <span className='animate-pulse inline-block '>et </span>
+         <span className='animate-bounce inline-block'>Addic </span>
+         <span className='animate-ping'>tions </span>
+         </span>
+         
+         </h2>  
 
          <p className='text-5xl text-slate-900'>Everything cakes and pastries with sweet addiction</p>
 
