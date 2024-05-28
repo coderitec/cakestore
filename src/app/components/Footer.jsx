@@ -13,7 +13,7 @@ function Footer() {
 
         </ul>
 
-         <ul className='flex items-center  gap-10 '>
+         <ul className='flex sm:flex-row flex-col items-center  gap-10 '>
             <li><Link href='/'>Home</Link></li>
             <li><Link href='/catalog'>Catalog</Link></li>
             <li><Link href='/delivery'>Delivery</Link></li>
@@ -21,7 +21,7 @@ function Footer() {
             <li><Link href='/contacts'>Contacts</Link></li>
         </ul>
 
-        <ul className='flex items-center gap-2 text-lg'>
+        <ul className='flex sm:flex-row flex-col items-center gap-2 text-lg'>
             <li>
                 <Link href='/'>
                     <FaGithub />
