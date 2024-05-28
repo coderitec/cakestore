@@ -13,7 +13,7 @@ export default function Bottom() {
 
     const cartVal = 0
   return (
-    <nav className='sm:pl-16 pl-4 bg-fuchsia-500 text-white flex sm:flex-row flex-col justify-between items-center'>
+    <nav className='sm:pl-16 pl-4 bg-fuchsia-500 text-white flex sm:flex-row flex-col sm:justify-between justify-center items-center'>
         <div className='flex flex-row justify-between items-center sm:gap-0 gap-[300px]'>
 
         <ul className='flex flex-row justify-around items-center h-[10vh]'>
