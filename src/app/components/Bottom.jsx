@@ -1,8 +1,8 @@
 "use client"
 import Link from 'next/link'
 import React, { useState } from 'react'
-import {FaCross, FaHamburger} from 'react-icons/fa'
-import {IoCartOutline} from 'react-icons/io'
+import {FaCross, FaHamburger,  FaShoppingCart} from 'react-icons/fa'
+
 
 export default function Bottom() {
     const [hide, setHide] = useState(false)
@@ -38,7 +38,7 @@ export default function Bottom() {
           
             <ul className='flex gap-4 items-center text-lg cursor-pointer'>
             <li>Cart</li>
-            <li><IoCartOutline /></li>
+            <li><FaShoppingCart /></li>
             <li className='bg-fuchsia-700 text-white rounded-full px-2'>{cartVal}</li>
         </ul>
         </ul>
