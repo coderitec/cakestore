@@ -13,8 +13,8 @@ export default function Bottom() {
 
     const cartVal = 0
   return (
-    <nav className='bg-blue-700 text-white flex sm:flex-row flex-col justify-between items-center'>
-        <div className='flex flex-row justify-between items-center sm:gap-0 gap-[400px]'>
+    <nav className='px-16 bg-fuchsia-500 text-white flex sm:flex-row flex-col justify-between items-center'>
+        <div className='flex flex-row justify-between items-center sm:gap-0 gap-[300px]'>
 
         <ul className='flex flex-row justify-around items-center h-[10vh]'>
             <li>
@@ -30,13 +30,13 @@ export default function Bottom() {
         </ul>
         </div>
 
-         <ul className={hide ? 'absolute right-0 top-14 sm:top-0 bg-[#0066ffb7] sm:bg-transparent sm:flex sm:gap-5 sm:justify-end sm:items-center block h-[70vh] sm:h-[10vh] w-[80%] text-right px-12' :'sm:relative hidden sm:flex sm:flex-row gap-5 pr-5 sm:items-center  h-[10vh]'}>   
-         <li><Link href='/category'>Catalog</Link></li>
-            <li><Link href='/delivery'>Delivery</Link></li>
-            <li><Link href='/about'>About</Link></li>
-            <li><Link href='/contacts'>Contacts</Link></li>
+         <ul className={hide ? 'absolute right-0 top-[130px] sm:top-[40px] bg-[#ff00ffbc] sm:bg-transparent sm:flex sm:gap-5 sm:justify-end sm:items-center flex flex-col sm:flex-row justify-between h-[70vh] sm:h-[10vh] w-[60%] text-right px-12' :'sm:relative hidden sm:flex sm:flex-row gap-5 gap-y-10 pr-5 sm:items-center  h-[10vh]'}>   
+         <li><Link href='/category' className=''>Catalog</Link></li>
+            <li><Link href='/delivery' className=''>Delivery</Link></li>
+            <li><Link href='/about' className=''>About</Link></li>
+            <li><Link href='/contacts' className=''>Contacts</Link></li>
           
-            <ul className='flex gap-4 items-center text-lg cursor-pointer'>
+            <ul className='flex gap-4 items-center justify-end sm:pb-0 pb-3 text-lg cursor-pointer sm:pr-16'>
             <li>Cart</li>
             <li><FaShoppingCart /></li>
             <li className='bg-fuchsia-700 text-white rounded-full px-2'>{cartVal}</li>

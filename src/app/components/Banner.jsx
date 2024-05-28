@@ -19,9 +19,9 @@ export default function Banner() {
          
          </h2>  
 
-         <p className='text-5xl text-slate-900'>Everything cakes and pastries with sweet addiction</p>
+         <p className='sm:text-5xl text-3xl text-slate-900'>Everything cakes and pastries with sweet addiction</p>
 
-         <button className='rounded-full cursor-pointer bg-fuchsia-600 text-white py-3 px-4 my-4'>check our Cakestore</button> 
+         <button className='rounded-full cursor-pointer bg-fuchsia-600 text-white sm:py-3 sm:px-4 sm:my-4'>check our Cakestore</button> 
         </div>
     </div>
 
