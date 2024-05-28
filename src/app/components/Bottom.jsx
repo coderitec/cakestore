@@ -36,11 +36,13 @@ export default function Bottom() {
             <li><Link href='/about' className=''>About</Link></li>
             <li><Link href='/contacts' className=''>Contacts</Link></li>
           
-            <ul className='flex gap-4 items-center justify-end sm:pb-0 pb-3 text-lg cursor-pointer sm:pr-16'>
+           <li>
+             <ul className='flex gap-4 items-center justify-end sm:pb-0 pb-3 text-lg cursor-pointer sm:pr-16'>
             <li>Cart</li>
             <li><FaShoppingCart /></li>
             <li className='bg-fuchsia-700 text-white rounded-full px-2'>{cartVal}</li>
-        </ul>
+            </ul>
+            </li>
         </ul>
        
     </nav>
