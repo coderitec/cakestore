@@ -1,12 +1,12 @@
 import React from 'react'
 import { TopNavbar } from './TopNavbar'
-import BottomNavbar from './BottomNavbar'
+import Bottom from './Bottom'
 
 export default function Navbar() {
   return (
     <div>
         <TopNavbar />
-        <BottomNavbar />
+        <Bottom />
     </div>
   )
 }
